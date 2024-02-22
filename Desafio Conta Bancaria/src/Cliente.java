@@ -21,6 +21,19 @@ public class Cliente {
         return saldoInicial;
     }
 
-    
+    public double  receberValor(double valor){
+        saldoInicial += valor;
+        return saldoInicial;
+    }
+
+    public  double saque(double valor){
+        if(valor > saldoInicial){
+            System.out.println("Operação Inválida");
+        }
+        else{
+            saldoInicial -= valor;
+        }
+        return saldoInicial;
+    }
 
 }
