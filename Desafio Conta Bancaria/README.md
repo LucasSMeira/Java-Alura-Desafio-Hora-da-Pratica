@@ -1,0 +1,1 @@
+a ideia é controlarmos nossa conta bancária virtual e nomearemos os métodos como recebeTransferencia(), fazTransferencia(), enviaPix() ou recebePix(), por exemplo. Mas poderemos nomear como acharmos melhor.
